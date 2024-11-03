@@ -1,0 +1,26 @@
+{
+    "name": "vyacheslavdanilin/php-csv-api",
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "robmorgan/phinx": "^0.16.5",
+        "psr/http-message": "^2.0",
+        "nyholm/psr7": "^1.8",
+        "nyholm/psr7-server": "^1.1",
+        "psr/log": "^3.0",
+        "monolog/monolog": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Viacheslav Danilin",
+            "email": "viacheslavdanilin@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.64"
+    }
+}
